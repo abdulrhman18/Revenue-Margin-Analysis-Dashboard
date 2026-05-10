@@ -1,67 +1,380 @@
-# Revenue-Margin-Analysis-Dashboard
-Project Overview
-This Power BI project provides a comprehensive analysis of financial performance, focusing on revenue trends, profitability margins, and sales team efficiency. The dashboard is designed to transform raw transactional data into actionable business insights, allowing stakeholders to monitor KPIs in real-time and identify growth opportunities across different sales channels and product categories.
+# 📊 Revenue Margin Analysis Dashboard
 
-Key Features
-Dynamic Visuals: Interactive charts including Revenue vs. Last Month (LM) trends, Net Profit Stepped Area charts, and Donut charts for categorical distribution.
+## 📌 Project Overview
+This Power BI project delivers a comprehensive financial performance analysis focused on:
 
-Advanced DAX: Implementation of Time Intelligence functions (YoY, MoM growth) and complex measures for Net Profit and Gross Margin.
+- Revenue trends
+- Profitability margins
+- Sales team efficiency
+- Business growth opportunities
 
-User Experience (UX): Integrated Dark/Light Mode toggle and a custom Filter Pane for deep-dive analysis by Month, Supplier, and Supervisor.
+The dashboard transforms raw transactional data into actionable business insights, enabling stakeholders to monitor KPIs in real time and make data-driven decisions across different sales channels and product categories.
 
-Tooltips: Custom report page tooltips providing granular breakdowns (e.g., Team revenue details) without cluttering the main view.
+---
 
-Data Modeling: A robust Star Schema implementation for optimized performance and scalability.
+# ✨ Key Features
 
-Dashboard Preview
-1. Main Dashboard (Dark Mode)
-The primary interface for high-level executive reporting.
+## 📈 Dynamic Visualizations
+Interactive and responsive visuals including:
 
-2. Main Dashboard (Light Mode)
-Alternative viewing mode for different user preferences.
+- Revenue vs Last Month (LM) trend analysis
+- Net Profit stepped area charts
+- Donut charts for categorical distribution
+- KPI cards with conditional formatting
+- Trend and comparison visuals
 
-3. Advanced Filtering & Navigation
-Custom sidebar for multi-dimensional data slicing.
+---
 
-4. Custom Report Tooltips
-Context-aware tooltips for deeper insights into specific data points.
+## 🧠 Advanced DAX Calculations
+Implemented advanced DAX measures such as:
 
-Data Model & Architecture
-The project follows best practices in data modeling to ensure accuracy and speed.
+- Year-over-Year (YoY) Growth
+- Month-over-Month (MoM) Growth
+- Net Profit calculations
+- Gross Margin %
+- Dynamic KPI switching
+- Time Intelligence functions
 
-Schema: Star Schema.
+---
 
-Fact Tables: Revenue and Expenses.
+## 🎨 User Experience (UX)
+Designed with a modern and user-friendly interface featuring:
 
-Dimension Tables: Product, Sales Person, Calendar, and Account Hierarchy.
+- 🌙 Dark Mode / ☀️ Light Mode toggle
+- Custom filter pane
+- Interactive navigation experience
+- Clean layout optimized for executive reporting
 
-Tech Stack
-Power BI Desktop: Report authoring and dashboard design.
+Users can filter the report by:
 
-DAX (Data Analysis Expressions): For complex calculations and business logic.
+- Month
+- Supplier
+- Supervisor
+- Sales Team
+- Product Category
 
-Power Query (M): For ETL (Extract, Transform, Load) processes and data cleaning.
+---
 
-Power BI Theme JSON: To handle the Dark/Light mode toggle functionality.
+## 💡 Custom Tooltips
+Custom report-page tooltips provide detailed contextual insights without overcrowding the dashboard.
 
-Key Insights Found
-Seasonal Trends: Significant revenue peaks identified in October and November.
+Examples include:
 
-Performance Leaders: "Shahid Duran" emerged as the top-performing salesperson, contributing $2.3M in revenue.
+- Team revenue breakdown
+- Profitability by category
+- Sales contribution analysis
 
-Product Performance: The "Food" category dominates the revenue share at 90.88% compared to "Drinks."
+---
 
-Channel Efficiency: The "Wholesales" team leads in revenue contribution, followed by "Retail" and "Online."
+## 🏗️ Data Modeling
+The project follows best practices in Power BI modeling.
 
-How to Use
-Download the .pbix file from this repository.
+### Schema Design
+- ⭐ Star Schema architecture
 
-Open it using Power BI Desktop.
+### Fact Tables
+- Revenue
+- Expenses
 
-Use the toggle switch in the top right to switch between Dark and Light modes.
+### Dimension Tables
+- Product
+- Sales Person
+- Calendar
+- Account Hierarchy
 
-Click the filter icon to expand the slicer panel and filter by specific categories or timeframes.
+This structure improves:
 
-Author: Abdulrahman Ahmed
+- Performance
+- Scalability
+- Data accuracy
+- DAX optimization
 
-Data Analyst | Power BI Specialist
+---
+
+# 🖼️ Dashboard Preview
+
+## 1️⃣ Main Dashboard — Dark Mode
+Primary executive reporting interface with modern dark-theme visuals.
+
+
+## 2️⃣ Main Dashboard — Light Mode
+Alternative viewing mode designed for accessibility and user preference.
+
+## 3️⃣ Advanced Filtering & Navigation
+Custom sidebar panel for multi-dimensional filtering and report navigation.
+
+## 4️⃣ Custom Report Tooltips
+Interactive contextual tooltips for detailed data exploration.
+
+---
+
+# 🛠️ Tech Stack
+
+| Tool | Purpose |
+|---|---|
+| Power BI Desktop | Dashboard development & visualization |
+| DAX (Data Analysis Expressions) | Business logic & calculations |
+| Power Query (M) | ETL & data transformation |
+| Power BI Theme JSON | Dark/Light mode implementation |
+
+---
+
+# 📊 Key Insights Discovered
+
+## 📅 Seasonal Revenue Trends
+Significant revenue peaks were identified during:
+
+- October
+- November
+
+---
+
+## 🏆 Top Sales Performance
+**Shahid Duran** emerged as the highest-performing salesperson, generating:
+
+> 💰 **$2.3M** in revenue
+
+---
+
+## 🍔 Product Category Performance
+The **Food** category dominates overall revenue contribution:
+
+| Category | Revenue Share |
+|---|---|
+| Food | 90.88% |
+| Drinks | 9.12% |
+
+---
+
+## 🚚 Sales Channel Efficiency
+Revenue contribution by channel:
+
+1. Wholesales
+2. Retail
+3. Online
+
+The **Wholesales** team generated the highest revenue among all channels.
+
+---
+
+# 🚀 How to Use
+
+1. Download the `.pbix` file from this repository.
+2. Open the file using **Power BI Desktop**.
+3. Use the toggle switch in the top-right corner to switch between:
+   - 🌙 Dark Mode
+   - ☀️ Light Mode
+4. Click the filter icon to expand the slicer panel.
+5. Filter data by:
+   - Time period
+   - Supplier
+   - Supervisor
+   - Sales channel
+   - Product category
+
+---
+
+# 👨‍💻 Author
+
+## Abdulrahman Ahmed
+**Data Analyst | Power BI Specialist**
+
+### Skills
+- Power BI
+- DAX
+- SQL
+- Python
+- Data Visualization
+- Business Intelligence
+- Dashboard Design
+
+---# 📊 Revenue Margin Analysis Dashboard
+
+## 📌 Project Overview
+This Power BI project delivers a comprehensive financial performance analysis focused on:
+
+- Revenue trends
+- Profitability margins
+- Sales team efficiency
+- Business growth opportunities
+
+The dashboard transforms raw transactional data into actionable business insights, enabling stakeholders to monitor KPIs in real time and make data-driven decisions across different sales channels and product categories.
+
+---
+
+# ✨ Key Features
+
+## 📈 Dynamic Visualizations
+Interactive and responsive visuals including:
+
+- Revenue vs Last Month (LM) trend analysis
+- Net Profit stepped area charts
+- Donut charts for categorical distribution
+- KPI cards with conditional formatting
+- Trend and comparison visuals
+
+---
+
+## 🧠 Advanced DAX Calculations
+Implemented advanced DAX measures such as:
+
+- Year-over-Year (YoY) Growth
+- Month-over-Month (MoM) Growth
+- Net Profit calculations
+- Gross Margin %
+- Dynamic KPI switching
+- Time Intelligence functions
+
+---
+
+## 🎨 User Experience (UX)
+Designed with a modern and user-friendly interface featuring:
+
+- 🌙 Dark Mode / ☀️ Light Mode toggle
+- Custom filter pane
+- Interactive navigation experience
+- Clean layout optimized for executive reporting
+
+Users can filter the report by:
+
+- Month
+- Supplier
+- Supervisor
+- Sales Team
+- Product Category
+
+---
+
+## 💡 Custom Tooltips
+Custom report-page tooltips provide detailed contextual insights without overcrowding the dashboard.
+
+Examples include:
+
+- Team revenue breakdown
+- Profitability by category
+- Sales contribution analysis
+
+---
+
+## 🏗️ Data Modeling
+The project follows best practices in Power BI modeling.
+
+### Schema Design
+- ⭐ Star Schema architecture
+
+### Fact Tables
+- Revenue
+- Expenses
+
+### Dimension Tables
+- Product
+- Sales Person
+- Calendar
+- Account Hierarchy
+
+This structure improves:
+
+- Performance
+- Scalability
+- Data accuracy
+- DAX optimization
+
+---
+
+# 🖼️ Dashboard Preview
+
+## 1️⃣ Main Dashboard — Dark Mode
+Primary executive reporting interface with modern dark-theme visuals.
+
+## 2️⃣ Main Dashboard — Light Mode
+Alternative viewing mode designed for accessibility and user preference.
+
+## 3️⃣ Advanced Filtering & Navigation
+Custom sidebar panel for multi-dimensional filtering and report navigation.
+
+## 4️⃣ Custom Report Tooltips
+Interactive contextual tooltips for detailed data exploration.
+
+---
+
+# 🛠️ Tech Stack
+
+| Tool | Purpose |
+|---|---|
+| Power BI Desktop | Dashboard development & visualization |
+| DAX (Data Analysis Expressions) | Business logic & calculations |
+| Power Query (M) | ETL & data transformation |
+| Power BI Theme JSON | Dark/Light mode implementation |
+
+---
+
+# 📊 Key Insights Discovered
+
+## 📅 Seasonal Revenue Trends
+Significant revenue peaks were identified during:
+
+- October
+- November
+
+---
+
+## 🏆 Top Sales Performance
+**Shahid Duran** emerged as the highest-performing salesperson, generating:
+
+> 💰 **$2.3M** in revenue
+
+---
+
+## 🍔 Product Category Performance
+The **Food** category dominates overall revenue contribution:
+
+| Category | Revenue Share |
+|---|---|
+| Food | 90.88% |
+| Drinks | 9.12% |
+
+---
+
+## 🚚 Sales Channel Efficiency
+Revenue contribution by channel:
+
+1. Wholesales
+2. Retail
+3. Online
+
+The **Wholesales** team generated the highest revenue among all channels.
+
+---
+
+# 🚀 How to Use
+
+1. Download the `.pbix` file from this repository.
+2. Open the file using **Power BI Desktop**.
+3. Use the toggle switch in the top-right corner to switch between:
+   - 🌙 Dark Mode
+   - ☀️ Light Mode
+4. Click the filter icon to expand the slicer panel.
+5. Filter data by:
+   - Time period
+   - Supplier
+   - Supervisor
+   - Sales channel
+   - Product category
+
+---
+
+# 👨‍💻 Author
+
+## Abdulrahman Ahmed
+**Data Analyst | Power BI Specialist**
+
+### Skills
+- Power BI
+- DAX
+- SQL
+- Python
+- Data Visualization
+- Business Intelligence
+- Dashboard Design
+
+---
