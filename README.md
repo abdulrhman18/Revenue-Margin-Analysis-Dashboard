@@ -95,7 +95,9 @@ This structure improves:
 
 ## 1️⃣ Main Dashboard — Dark Mode
 Primary executive reporting interface with modern dark-theme visuals.
-
+<p align="center">
+  <img src="1.PNG" width="1000"/>
+</p>
 ## 2️⃣ Main Dashboard — Light Mode
 Alternative viewing mode designed for accessibility and user preference.
 
