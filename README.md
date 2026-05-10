@@ -191,4 +191,8 @@ The **Wholesales** team generated the highest revenue among all channels.
 - Business Intelligence
 - Dashboard Design
 
+# 🔗 Connect With Me
+
+- LinkedIn https://www.linkedin.com/in/abdulrhman-ahmed-60b0442a3/
+
 
