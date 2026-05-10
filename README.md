@@ -95,15 +95,19 @@ This structure improves:
 
 ## 1️⃣ Main Dashboard — Dark Mode
 Primary executive reporting interface with modern dark-theme visuals.
+<img width="1280" height="722" alt="1" src="https://github.com/user-attachments/assets/fce6cf11-e6bf-4b1d-ab6f-016a2a42a505" />
 
 ## 2️⃣ Main Dashboard — Light Mode
 Alternative viewing mode designed for accessibility and user preference.
+<img width="1275" height="713" alt="2" src="https://github.com/user-attachments/assets/7e396bb3-7224-4dfb-b062-e3d5d7a000a8" />
 
 ## 3️⃣ Advanced Filtering & Navigation
 Custom sidebar panel for multi-dimensional filtering and report navigation.
+<img width="1279" height="719" alt="3" src="https://github.com/user-attachments/assets/d0dcc674-bc7f-4981-a39c-9106bd3f17b8" />
 
 ## 4️⃣ Custom Report Tooltips
 Interactive contextual tooltips for detailed data exploration.
+<img width="1268" height="718" alt="Screenshot (334)" src="https://github.com/user-attachments/assets/b357690f-89a2-4de4-9fd5-47873ceb9ca7" />
 
 ---
 
